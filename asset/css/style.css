@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Navbar container */
+.navbar-custom {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 0;
+}
+.navbar-custom .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-custom .nav-links a {
+    margin: 0 5px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.navbar-custom .nav-links a.highlight {
+    color: #ff2200; /* Highlight color */
+    font-weight: bold;
+}
+.navbar-custom .social-icons a {
+    margin: 0 5px;
+    color: #333;
+}
+.navbar-custom .social-icons a:hover {
+    color: #ff0000; /* Red color on hover */
+}
+
+/* Custom Flexbox Alignment */
+.navbar-custom .navbar-collapse {
+    display: flex;
+    justify-content: space-between; /* Space between logo, nav links, and social icons */
+    align-items: center;
+    width: 100%; /* Ensure full width */
+}
+.navbar-custom .nav-links {
+    display: flex;
+    justify-content: center; /* Center the nav links */
+    flex-grow: 1; /* Allow nav links to take up remaining space */
+}
+.navbar-custom .social-icons {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ------------------------------------------ SEZIONE AUTORE */
+
+/* Image section */
+.bio-image {
+    width: 30%;
+    max-width: 300px;
+    /* Ensures the image doesn't grow too large on wider screens */
+    margin: 20px auto;
+    /* Adds vertical spacing above and below */
+    display: block;
+    border-radius: 10px;
+    /* Keeps the corners rounded */
+    object-fit: cover;
+    /* Ensures the image fits well inside the dimensions */
+}
+
+/*----------------------- Container for the biography */
+.bio-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Biography title */
+.bio-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Biography text */
+.bio-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Highlighted text */
+.bio-text b {
+    color: rgb(204, 0, 0);
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------- Main Session */
+
+.container {
+    display: flex;
+    border-radius: 8px;
+    padding: 20px;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.paragraph-container {
+    padding: 20px;
+}
+
+.button {
+   
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #3a3a3a;
+}
+
+/* -----------------------------------------------------------------------------------    Footer Section */
+.footer {
+    background-color: #ffffff;
+    /* Matches the navigation bar's background color */
+    color: #000;
+    /* Matches the navigation bar's text color */
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 50px;
+    /* Adds space between the footer and the content above */
+    border-top: 2px solid rgba(204, 0, 0, 0.346);
+    /* Matches the red accent in the navigation */
+    font-family: 'Arial', sans-serif;
+    /* Consistent font with nav */
+}
+
+.footer h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Matches nav bar's style */
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer a {
+    color: rgb(0, 0, 0);
+    /* Matches the red accent color in the navigation */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    /* Adds interactivity for links */
+}
