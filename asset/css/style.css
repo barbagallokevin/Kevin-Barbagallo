@@ -1,169 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&display=swap');
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: rgba(70, 53, 38, 0.556);
 }
 
-/* Navbar container */
+/* Navbar */
 .navbar-custom {
-    background-color: #f8f9fa; /* Light background color */
-    padding: 10px 0;
+    background-color: rgba(70, 53, 38, 0.339);
+    font-family: 'Anton', sans-serif;
 }
-.navbar-custom .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+
+.navbar-brand {
+    height: 40px;
+    width: auto;
 }
-.navbar-custom .nav-links a {
-    margin: 0 5px;
-    color: #333;
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav .nav-link {
+    margin: 0 10px;
+    color: #000000;
     transition: color 0.3s ease;
 }
-.navbar-custom .nav-links a.highlight {
-    color: #ff2200; /* Highlight color */
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ff2200;
     font-weight: bold;
 }
-.navbar-custom .social-icons a {
-    margin: 0 5px;
+
+.social-icons .nav-link {
+    margin-left: 10px;
     color: #333;
 }
-.navbar-custom .social-icons a:hover {
-    color: #ff0000; /* Red color on hover */
+
+.social-icons .nav-link:hover {
+    color: #ff2200;
+}
+.container-fluid {
+    text-align: end;
 }
 
-/* Custom Flexbox Alignment */
-.navbar-custom .navbar-collapse {
-    display: flex;
-    justify-content: space-between; /* Space between logo, nav links, and social icons */
-    align-items: center;
-    width: 100%; /* Ensure full width */
-}
-.navbar-custom .nav-links {
-    display: flex;
-    justify-content: center; /* Center the nav links */
-    flex-grow: 1; /* Allow nav links to take up remaining space */
-}
-.navbar-custom .social-icons {
-    display: flex;
-    align-items: center;
-}
-
-
-/* ------------------------------------------ SEZIONE AUTORE */
-
-/* Image section */
-.bio-image {
-    width: 30%;
-    max-width: 300px;
-    /* Ensures the image doesn't grow too large on wider screens */
-    margin: 20px auto;
-    /* Adds vertical spacing above and below */
-    display: block;
-    border-radius: 10px;
-    /* Keeps the corners rounded */
-    object-fit: cover;
-    /* Ensures the image fits well inside the dimensions */
-}
-
-/*----------------------- Container for the biography */
-.bio-container {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 20px 30px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* Biography title */
-.bio-title {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #000;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #c00;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-/* Biography text */
-.bio-text {
-    font-size: 18px;
-    color: #555;
+/* Main Content */
+.text-muted {
+    font-size: 1.1rem;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
-/* Highlighted text */
-.bio-text b {
-    color: rgb(204, 0, 0);
-    font-weight: bold;
+.btn-danger {
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.3s ease;
 }
 
-/* ------------------------------------------------------------------------- Main Session */
-
-.container {
-    display: flex;
-    border-radius: 8px;
-    padding: 20px;
-    align-items: center;
-    margin: 20px 0;
-    width: 100%;
+.btn-danger:hover {
+    color: rgb(255, 255, 255);
 }
 
-.image-container img {
+/* Book Section */
+.book-section {
+    background-color: transparent;
+}
+
+.book-cover img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
-.paragraph-container {
+
+.book-details h2 {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.book-details p.lead {
+    font-size: 1.25rem;
+    color: #000000;
+}
+
+@media (max-width: 576px) {
+    .book-details h2 {
+        font-size: 1.5rem;
+    }
+
+    .book-details p.lead {
+        font-size: 1rem;
+    }
+
+    .image-container {
+        width: 250px;
+        height: 375px;
+    }
+}
+
+/* Shift Section (Caratteristiche) */
+.shift-section1 {
+    padding: 4rem 1rem 6rem; /* extra bottom padding */
+    background-color: #121212;
+    text-align: center;
+}
+
+.shift-section1 h2,
+.shift-section1 p.white {
+    color: #ffffff;
+    text-align: center;
+}
+
+.shift-feature {
     padding: 20px;
 }
 
-.button {
-   
-    margin-top: 20px;
+.shift-image {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
 }
 
-.button:hover {
-    background-color: #3a3a3a;
+@media (max-width: 768px) {
+    .shift-image {
+        width: 180px;
+        margin: 1.5rem 0;
+    }
+
+    .shift-feature {
+        text-align: center !important;
+        align-items: center !important;
+    }
 }
 
-/* -----------------------------------------------------------------------------------    Footer Section */
+.buy-btn {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/* Footer */
 .footer {
-    background-color: #ffffff;
-    /* Matches the navigation bar's background color */
-    color: #000;
-    /* Matches the navigation bar's text color */
     text-align: center;
-    padding: 20px 10px;
-    margin-top: 50px;
-    /* Adds space between the footer and the content above */
-    border-top: 2px solid rgba(204, 0, 0, 0.346);
-    /* Matches the red accent in the navigation */
-    font-family: 'Arial', sans-serif;
-    /* Consistent font with nav */
+    padding: 2rem 1rem;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
-.footer h3 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    /* Matches nav bar's style */
+/* Color Utilities */
+.red {
+    color: #ff4b5c;
 }
 
-.footer p {
-    margin: 5px 0;
-    font-size: 16px;
-}
-
-.footer a {
-    color: rgb(0, 0, 0);
-    /* Matches the red accent color in the navigation */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.footer a:hover {
-    text-decoration: underline;
-    /* Adds interactivity for links */
+.white {
+    color: white;
 }

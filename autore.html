@@ -1,83 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Dono Del Killer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <title>L'Autore - Il Dono Del Killer</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="asset/css/autore.style.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-custom">
-        <div class="container-fluid">
-            <!-- Logo -->
-            <a class="navbar-brand logo" href="#">Kevin Barbagallo</a>
 
-            <!-- Toggle Button for Mobile -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid d-flex justify-content-between align-items-center px-3">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="index.html"><p class="mb-0">Kevin Barbagallo</p>
+            </a>
+    
+            <!-- Hamburger Menu (Right Aligned) -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <!-- Nav Links and Social Icons -->
-            <div class="collapse navbar-collapse navbar-expand-lg" id="navbarSupportedContent">
-                <div class="navbar-nav nav-links">
-                    <a class="nav-link" href="index.html">Il Dono Del Killer</a>
-                    <a class="nav-link" href="#">Novità</a>
-                    <a class="nav-link highlight" href="autore.html">L'Autore</a>
-                </div>
-                <div class="navbar-nav ms-auto social-icons">
-                    <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
+    
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Il Dono Del Killer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="autore.html">L'Autore</a>
+                    </li>
+                </ul>
+                <!-- Social Icons -->
+                <ul class="navbar-nav ms-auto social-icons">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
-
+    <div class="shift-section1"></div>
     <!-- Biography Section -->
-    <div>
-        <!-- Image at the top -->
-        <img src="asset/media/profiloautore.jpeg" alt="Author Image" class="bio-image"></div>
+    <div class="container bio-container">
 
-        <!-- Title and Biography Text -->
-        <div class="bio-container">
-            <h1 class="bio-title">L'Autore</h1>
-            <p class="bio-text">
-                <b>Kevin Barbagallo</b> è nato in Sicilia nel 1992 e ha sempre nutrito una profonda passione per l'arte,
-                il design e la narrazione. Dopo aver conseguito la laurea in Interior Design presso la British Academy
-                of Interior Design a Londra, ha lavorato per diversi anni nella capitale britannica, ricoprendo ruoli
-                manageriali di rilievo. Da qualche anno è rientrato in Italia, stabilendosi a Milano, dove continua a
-                coltivare la sua passione per il design e la scrittura.
-            </p>
-            <p class="bio-text">
-                Appassionato di romanzi gialli e thriller, Kevin utilizza questi generi per esplorare le complessità
-                della psiche umana e delle interazioni sociali. La sua scrittura combina tensione narrativa e dettagli
-                meticolosi, frutto della sua formazione nel design, con un occhio sempre attento alla costruzione di
-                atmosfere suggestive e realistiche.
-            </p>
-            <p class="bio-text">
-                Per lui, la scrittura è un mezzo per dare vita a storie intricate e avvincenti, dove ogni elemento
-                contribuisce a un puzzle che si svela progressivamente, mantenendo il lettore sospeso fino alla fine.
-                Con uno stile che affonda le radici nella sua passione per l’arte e il mistero, invita i lettori a
-                immergersi in mondi oscuri e affascinanti, dove nulla è mai come sembra.
-            </p>
+        <!-- Author Bio -->
+        <div class="row justify-content-center text-center">
+            <div class="col-md-8">
+                <h1 class="bio-title">L'Autore</h1>
+                <p class="bio-text">
+                    <b>Kevin Barbagallo</b> è nato in Sicilia nel 1992 e ha sempre nutrito una profonda passione per
+                    l'arte,
+                    il design e la narrazione. Dopo aver conseguito la laurea in Interior Design presso la British
+                    Academy
+                    of Interior Design a Londra, ha lavorato per diversi anni nella capitale britannica, ricoprendo
+                    ruoli
+                    manageriali di rilievo. Da qualche anno è rientrato in Italia, stabilendosi a Milano, dove continua
+                    a
+                    coltivare la sua passione per il design e la scrittura.
+                </p>
+                <p class="bio-text">
+                    Appassionato di romanzi gialli e thriller, Kevin utilizza questi generi per esplorare le complessità
+                    della psiche umana e delle interazioni sociali. La sua scrittura combina tensione narrativa e
+                    dettagli
+                    meticolosi, frutto della sua formazione nel design, con un occhio sempre attento alla costruzione di
+                    atmosfere suggestive e realistiche.
+                </p>
+                <p class="bio-text">
+                    Per lui, la scrittura è un mezzo per dare vita a storie intricate e avvincenti, dove ogni elemento
+                    contribuisce a un puzzle che si svela progressivamente, mantenendo il lettore sospeso fino alla
+                    fine.
+                    Con uno stile che affonda le radici nella sua passione per l’arte e il mistero, invita i lettori a
+                    immergersi in mondi oscuri e affascinanti, dove nulla è mai come sembra.
+                </p>
+            </div>
         </div>
+    </div>
 
-        <!-- Footer Section -->
-  <footer class="footer">
-    <h3>Kevin Barbagallo</h3>
-    <p>Email: <a href="mailto:barbagallokevin@hotmail.it">barbagallokevin@hotmail.it</a></p>
-    <p>Phone: <a href="tel:+393495105859">+39 349 510 5859</a></p>
-  </footer>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <h3>Kevin Barbagallo</h3>
+    </footer>
 
-    <!-- Bootstrap JS (Required for Toggle Button) -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- FontAwesome for icons -->
-        <script src="https://kit.fontawesome.com/fe96350843.js" crossorigin="anonymous">
-        </script>
+
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/fe96350843.js" crossorigin="anonymous"></script>
+    <script src="navbarActive.js"></script>
+
 </body>
 
 </html>

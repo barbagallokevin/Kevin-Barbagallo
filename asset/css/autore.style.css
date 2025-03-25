@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(70, 53, 38, 0.556);
+}
+
+/*-------------------------------------------------------------------------- Navbar */
+.navbar-custom {
+    background-color: rgba(70, 53, 38, 0.339);
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar-brand {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav .nav-link {
+    margin: 0 10px;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ff2200;
+    font-weight: bold;
+}
+
+.social-icons .nav-link {
+    margin-left: 10px;
+    color: #333;
+}
+
+.social-icons .nav-link:hover {
+    color: #ff2200;
+}
+.container-fluid {
+    text-align: end;
+}
+
+/* Biography Section */
+.bio-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    /* background-color: #ffffff20; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+}
+
+/* Author Image */
+
+.shift-section1 {
+    position: relative;
+    height: 100vh;
+    background: url('/asset/media/kevin.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+}
+/* Biography Title */
+.bio-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Biography Text */
+.bio-text {
+    font-size: 18px;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    /* border-top: 2px solid rgba(204, 0, 0, 0.346); */
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .bio-container {
+        padding: 15px;
+    }
+}
