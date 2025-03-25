@@ -3,13 +3,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgba(70, 53, 38, 0.556);
+    background-color: rgba(70, 53, 38, 0.209);
 }
 
 /* Navbar */
 .navbar-custom {
-    background-color: rgba(70, 53, 38, 0.339);
+    background-color: rgba(70, 53, 38, 0.091);
     font-family: 'Anton', sans-serif;
+    font-size: medium;
 }
 
 .navbar-brand {
@@ -27,13 +28,13 @@ body {
 
 .navbar-nav .nav-link {
     margin: 0 10px;
-    color: #000000;
+    color: #000000d1;
     transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #ff2200;
+    color: rgba(179, 43, 45, 0.777);
     font-weight: bold;
 }
 
@@ -43,7 +44,7 @@ body {
 }
 
 .social-icons .nav-link:hover {
-    color: #ff2200;
+    color: rgb(179, 43, 46);
 }
 .container-fluid {
     text-align: end;
@@ -54,12 +55,14 @@ body {
     font-size: 1.1rem;
     color: #ffffff;
     margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .btn-danger {
     font-size: 1rem;
     font-weight: 600;
     transition: background 0.3s ease;
+    background-color: rgb(179, 43, 46);
 }
 
 .btn-danger:hover {
@@ -113,6 +116,7 @@ body {
 .shift-section1 p.white {
     color: #ffffff;
     text-align: center;
+    font-family: A;
 }
 
 .shift-feature {
@@ -157,7 +161,7 @@ body {
 
 /* Color Utilities */
 .red {
-    color: #ff4b5c;
+    color: rgb(179, 43, 46);
 }
 
 .white {
