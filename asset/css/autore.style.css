@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-toggler-icon {
-    background-image: url("https://res.cloudinary.com/dj3sy6ut7/image/upload/v1742912703/BooKevin/Kevin_15_g7mfjj.jpg");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-nav .nav-link {
@@ -64,7 +64,7 @@ body {
 .shift-section1 {
     position: relative;
     height: 100vh;
-    background: url('/asset/media/kevin.jpg') no-repeat center center/cover;
+    background: url('https://res.cloudinary.com/dj3sy6ut7/image/upload/v1742912703/BooKevin/Kevin_15_g7mfjj.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
 }
