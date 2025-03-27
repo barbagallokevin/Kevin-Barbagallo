@@ -3,12 +3,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: rgba(70, 53, 38, 0.209);
+    background-color: rgba(70, 53, 38, 0.291);
 }
 
 /* Navbar */
 .navbar-custom {
-    background-color: rgba(70, 53, 38, 0.091);
+    background-color: rgb(178, 169, 161);
     font-family: 'Anton', sans-serif;
     font-size: medium;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .book-cover img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
 }
@@ -88,6 +88,8 @@ body {
 .book-details p.lead {
     font-size: 1.25rem;
     color: #000000;
+    border-bottom: 2px solid rgb(179, 43, 46);
+    display: inline-block;
 }
 
 @media (max-width: 576px) {
@@ -108,7 +110,7 @@ body {
 /* Shift Section (Caratteristiche) */
 .shift-section1 {
     padding: 4rem 1rem 6rem; /* extra bottom padding */
-    background-color: #121212;
+    background-color: rgb(36, 35, 35);
     text-align: center;
 }
 
@@ -153,8 +155,7 @@ body {
 .footer {
     text-align: center;
     padding: 2rem 1rem;
-    background-color: #000;
-    color: #fff;
+    color: #000000;
     position: relative;
     font-family: 'Anton', sans-serif;
 }

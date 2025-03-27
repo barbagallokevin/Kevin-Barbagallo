@@ -8,7 +8,7 @@ body {
 
 /*-------------------------------------------------------------------------- Navbar */
 .navbar-custom {
-    background-color: rgba(70, 53, 38, 0.209);
+    background-color: rgba(203,199,195,255);
     font-family: 'Anton', sans-serif;
 }
 
@@ -69,8 +69,8 @@ body {
 }
 /* Biography Title */
 .bio-title {
-    font-size: 32px;
-    font-weight: bold;
+    /* font-size: 100px; */
+    /* font-weight: bold; */
     text-transform: uppercase;
     color: #000;
     margin-bottom: 20px;
@@ -81,10 +81,11 @@ body {
 
 /* Biography Text */
 .bio-text {
-    font-size: 18px;
+    font-size: 16px;
     color: #4e4c4c;
     margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: left;
 }
 
 /* Footer */
