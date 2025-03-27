@@ -8,7 +8,7 @@ body {
 
 /*-------------------------------------------------------------------------- Navbar */
 .navbar-custom {
-    background-color: rgba(203,199,195,255);
+    background-color: rgb(178, 169, 161);
     font-family: 'Anton', sans-serif;
 }
 
@@ -92,8 +92,8 @@ body {
 .footer {
     text-align: center;
     padding: 2rem 1rem;
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(178, 169, 161);
+    color: #000000;
     position: relative;
     font-family: 'Anton', sans-serif;
 }
