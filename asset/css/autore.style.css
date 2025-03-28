@@ -69,8 +69,6 @@ body {
 }
 /* Biography Title */
 .bio-title {
-    /* font-size: 100px; */
-    /* font-weight: bold; */
     text-transform: uppercase;
     color: #000;
     margin-bottom: 20px;
@@ -81,7 +79,7 @@ body {
 
 /* Biography Text */
 .bio-text {
-    font-size: 16px;
+    font-size: 19px;
     color: #4e4c4c;
     margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -102,5 +100,9 @@ body {
 @media (max-width: 768px) {
     .bio-container {
         padding: 15px;
+    }
+
+    .bio-text {
+        font-size: 16px;
     }
 }
