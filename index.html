@@ -80,8 +80,33 @@
                         la linea tra giustizia e vendetta si fa sempre più sottile, mettendo a dura prova ogni convinzione. 
                         La caccia è solo all’inizio, ma la resa dei conti è inevitabile.
                     </p>
-                    <a href="https://www.bookroad.it/prodotto/il-dono-del-killer/" class="btn btn-danger px-4 py-2"
-                        style="font-family: 'Anton', sans-serif; font-size: large; letter-spacing: 2px " target="_blank">ACQUISTA</a>
+                    <!-- <a href="https://www.bookroad.it/prodotto/il-dono-del-killer/" class="btn btn-danger px-4 py-2"
+                        style="font-family: 'Anton', sans-serif; font-size: large; letter-spacing: 2px " target="_blank">ACQUISTA
+                    </a> -->
+                    <button class="btn btn-danger px-4 py-2 mt-3" onclick="toggleEbookLinks()"
+                    style="font-family: 'Anton', sans-serif; font-size: large; letter-spacing: 2px">ACQUISTA</button>
+            <div id="ebookLinks" style="display: none; margin-top: 15px;">
+                <a href="https://www.amazon.it/dono-del-killer-Kevin-Barbagallo-ebook/dp/B0F3MQ7TS7/ref=sr_1_1?dib=eyJ2IjoiMSJ9.00dx-BK2v5yyQSyF-5NKzA.NX0A3pLI_A_oy1NTVgjSLaj4oBoUFcVAJnIzl3UgzZ8&dib_tag=se&qid=1744030845&refinements=p_27%3AKevin+Barbagallo&s=books&sr=1-1" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" style="height: 40px; margin: 5px; border: 1px solid brown; border-radius: 5px; padding: 5px; background-color:white">
+                </a>
+                <a href="https://www.mondadoristore.it/Il-dono-del-killer-Kevin-Barbagallo/eai978883322723/?srsltid=AfmBOoqaBRamqXY3ZOYZ-2REmavhXdLbKuPSwHxamTI2fzd4b7i9rYuO" target="_blank">
+                    <img src="https://res.cloudinary.com/dj3sy6ut7/image/upload/v1744034307/BooKevin/Screenshot_2025-04-07_at_3.58.11_pm_awwzak.png" alt="Mondadori"  
+                        style="height: 40px; margin: 5px; border: 1px solid brown; border-radius: 5px; padding: 5px;">
+                </a>
+                <a href="https://www.ibs.it/dono-del-killer-libro-kevin-barbagallo/e/9788833222158" target="_blank">
+                    <img src="https://res.cloudinary.com/dj3sy6ut7/image/upload/v1744032478/BooKevin/ibsLogo_uoajha.png" alt="IBS" 
+                    style="height: 40px; margin: 5px; border: 1px solid brown; border-radius: 5px; padding: 5px;">
+                </a>
+                <a href="https://www.bookroad.it/prodotto/il-dono-del-killer/" target="_blank">
+                    <img src="https://res.cloudinary.com/dj3sy6ut7/image/upload/v1744039496/BooKevin/Screenshot_2025-04-07_at_5.24.46_pm_ojifjg.png" alt="BookRoad" style="height: 40px; margin: 5px; border: 1px solid brown; border-radius: 5px; padding: 5px;">
+                </a>
+            </div>
+            <script>
+                function toggleEbookLinks() {
+                    const links = document.getElementById('ebookLinks');
+                    links.style.display = links.style.display === 'none' ? 'block' : 'none';
+                }
+            </script>
                 </div>
             </div>
         </div>
